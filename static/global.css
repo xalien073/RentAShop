@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+  }
+  
+  @media (max-width: 998px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 45%;
+    }
+  }
+  body {
+    font-family: FontAwesome;
+  }
+  h1 {
+    /* font-size: 3.2rem; */
+    color: red;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  div, button, strong, i, p, span, input, textarea, a{
+    font-size: 16px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: violet;
+    color: blueviolet;
+  }
